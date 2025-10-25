@@ -8,7 +8,7 @@ const listenServer = () => {
             host: "0.0.0.0",
         }, () => {
             console.log(`${new Date()}`);
-            console.log(`Server listen on http:localhost:${PORT}`);
+            console.log(`Server listen on http://localhost:${PORT}`);
         });
     }
     catch (error) {

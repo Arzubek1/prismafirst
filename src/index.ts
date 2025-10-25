@@ -12,7 +12,7 @@ const listenServer = () => {
       },
       () => {
         console.log(`${new Date()}`);
-        console.log(`Server listen on http:localhost:${PORT}`);
+        console.log(`Server listen on http://localhost:${PORT}`);
       }
     );
   } catch (error) {
